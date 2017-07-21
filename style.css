@@ -1,5 +1,5 @@
 h1 {
-	padding-top: 50px;
+	margin-top: 1em;
 	text-decoration: underline;
 	text-align: center;
 	font-size: 50px;
@@ -23,8 +23,8 @@ body {
     /*position: fixed;*/
     display: inline-block;
     margin-left: 360px;
-    margin-top: 50px;
-    margin-bottom: 230px;
+    margin-top: 3em;
+    margin-bottom: 2em;
 
 }
 
@@ -57,14 +57,13 @@ body {
 
 
 /*background image settings*/
-.background {
-	position: absolute;
+.background-contact {
     z-index: -3;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background-image: url(images/rendered.jpg);
+    background-image: url(images/background-contact.jpg);
     opacity: .8;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -76,9 +75,12 @@ p {
 	text-align: center;
 	z-index: 1;
 	font-weight: bold;
-	margin-bottom: 120px;
+	margin-bottom: 1em;
 }
 
+.format {
+	margin: 0; 
+}
 
 /*image settings:........*/
 
