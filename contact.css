@@ -1,12 +1,7 @@
 h1 {
-<<<<<<< HEAD:home.css
-	margin-top: 0px;
-	margin-bottom: 0px;
-=======
 	/*margin-top: 1em;*/
 	margin: 0;
 	height: 2em;
->>>>>>> contact:style.css
 	text-decoration: underline;
 	text-align: center;
 	font-size: 50px;
@@ -16,23 +11,13 @@ h1 {
 
 body {
 	font-family: papyrus;
-<<<<<<< HEAD:home.css
-	color: #80bd9e;
-	font-size: 27px;
-	font-weight: bold;
-=======
 	color: #824113;
 	font-size: 27px;
->>>>>>> contact:style.css
 }
 
 nav {
 	width: 100%;
-<<<<<<< HEAD:home.css
-    height: 5em;
-=======
     height: 8em;
->>>>>>> contact:style.css
     top: 0;
     left: 0;
     right: 0;
@@ -51,24 +36,16 @@ nav {
     padding: 0;
     /*position: fixed;*/
     display: inline-block;
-    /*background-color: #80bd9e;*/
     margin-left: 360px;
     margin-top: 3em;
     margin-bottom: 2em;
 
 }
 
-/* TO DO: make js file that adds scrollign id to nav $('nav') */
-nav#scrolling {
-	position: fixed;
-}
-
-
 /*format for each navigation li*/
 .nav-format {
 	/*position: fixed;*/
-	color: #80bd9e;
-	font-weight: bold;
+	color: #D2DBC6;
 	display: inline;
     height: 9%;
     width: 9%;
@@ -95,23 +72,13 @@ nav#scrolling {
 
 
 /*background image settings*/
-<<<<<<< HEAD:home.css
-.background-home {
-	position: absolute;
-    z-index: -5;
-=======
 .background-contact {
     z-index: -3;
->>>>>>> contact:style.css
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-<<<<<<< HEAD:home.css
-    background-image: url(images/background-home.jpg);
-=======
     background-image: url(images/background-contact.jpg);
->>>>>>> contact:style.css
     opacity: .8;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -123,12 +90,8 @@ p {
 	text-align: center;
 	z-index: 1;
 	font-weight: bold;
-<<<<<<< HEAD:home.css
-	margin: 0;
-=======
 	margin-top: 0;
 	margin-bottom: 1em;
->>>>>>> contact:style.css
 }
 
 .format {
@@ -165,24 +128,16 @@ p {
 .width {
 	padding-left: 250px;
 	padding-right: 250px;
-<<<<<<< HEAD:home.css
-	margin-bottom: 0;
-	background-color: rgba(0,0,0,0.3);
-}
-
-#link-div {
-=======
->>>>>>> contact:style.css
 	background-color: rgba(0,0,0,0.3);
 }
 
 #link {
 	display: inline-block;
-	color: #80bd9e;
-	height: 2em;
-	/*margin-top: 95px;*/
-	margin-left: 21.2em;
-	/*margin-bottom: 100px;*/
-	font-size: 23px;
+	color: #D5F098;
+	margin-top: 95px;
+	margin-left: 425px;
+	margin-bottom: 100px;
+	font-size: 30px;
 	font-weight: bold;
+
 }
