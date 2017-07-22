@@ -6,12 +6,12 @@ h1 {
 	text-align: center;
 	font-size: 50px;
 	font-weight: bold;
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(0,0,0,0.4);
 }
 
 body {
 	font-family: papyrus;
-	color: #824113;
+	color: #B0581B;
 	font-size: 27px;
 }
 
@@ -22,7 +22,7 @@ nav {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.4);
     z-index: 2;
     cursor: pointer;
 }
@@ -45,7 +45,6 @@ nav {
 /*format for each navigation li*/
 .nav-format {
 	/*position: fixed;*/
-	color: #D2DBC6;
 	display: inline;
     height: 9%;
     width: 9%;
@@ -128,16 +127,6 @@ p {
 .width {
 	padding-left: 250px;
 	padding-right: 250px;
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(0,0,0,0.4);
 }
 
-#link {
-	display: inline-block;
-	color: #D5F098;
-	margin-top: 95px;
-	margin-left: 425px;
-	margin-bottom: 100px;
-	font-size: 30px;
-	font-weight: bold;
-
-}
