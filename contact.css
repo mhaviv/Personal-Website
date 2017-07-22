@@ -51,6 +51,10 @@ nav {
     color: #80bd9e;
 }
 
+.nav-format:hover {
+	color: #B0581B;
+}
+
 /*format of navigation links*/
 .shape {
 	margin-top: 0px;

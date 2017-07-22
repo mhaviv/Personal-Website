@@ -45,20 +45,23 @@ nav {
 }
 
 /* TO DO: make js file that adds scrollign id to nav $('nav') */
-nav#scrolling {
+/*nav#scrolling {
 	position: fixed;
-}
+}*/
 
 
 /*format for each navigation li*/
 .nav-format {
-	/*position: fixed;*/
 	color: #80bd9e;
 	font-weight: bold;
 	display: inline;
     height: 9%;
     width: 9%;
     color: #80bd9e;
+}
+
+.nav-format:hover {
+	color: #B0581B;
 }
 
 /*format of navigation links*/
