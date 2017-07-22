@@ -11,7 +11,7 @@ h1 {
 
 body {
 	font-family: papyrus;
-	color: #D5F098;
+	color: #824113;
 	font-size: 27px;
 }
 
@@ -49,6 +49,7 @@ nav {
 	display: inline;
     height: 9%;
     width: 9%;
+    color: #80bd9e;
 }
 
 /*format of navigation links*/
