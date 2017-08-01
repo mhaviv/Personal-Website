@@ -31,14 +31,18 @@ nav {
 /*navigation bar settings:...........*/
 
 /*format for the whole navigation bar*/
+
+a {
+	color: #80bd9e;
+}
+
+
 #nav-bar {
 	list-style-type: none;
     margin: 0;
     padding: 0;
-    /*position: fixed;*/
     display: inline-block;
-    /*background-color: #80bd9e;*/
-    margin-left: 360px;
+    margin-left: 5.7em;
     margin-top: 3em;
     margin-bottom: 2em;
 
@@ -52,12 +56,10 @@ nav {
 
 /*format for each navigation li*/
 .nav-format {
-	color: #80bd9e;
 	font-weight: bold;
 	display: inline;
     height: 9%;
     width: 9%;
-    color: #80bd9e;
 }
 
 .nav-format:hover {
@@ -75,11 +77,11 @@ nav {
 }
 
 .shape.two {
-	margin-left: 60px;
+	margin-left: 0.01em;
 }
 
 .shape.four {
-	margin-left: 60px;
+	margin-left: 3em;
 }
 
 

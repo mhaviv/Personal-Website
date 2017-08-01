@@ -30,25 +30,35 @@ nav {
 /*navigation bar settings:...........*/
 
 /*format for the whole navigation bar*/
+
+a {
+	color: #80bd9e;
+}
+
+
 #nav-bar {
 	list-style-type: none;
     margin: 0;
     padding: 0;
-    /*position: fixed;*/
     display: inline-block;
-    margin-left: 360px;
+    margin-left: 5.7em;
     margin-top: 3em;
     margin-bottom: 2em;
 
 }
 
+/* TO DO: make js file that adds scrollign id to nav $('nav') */
+/*nav#scrolling {
+	position: fixed;
+}*/
+
+
 /*format for each navigation li*/
 .nav-format {
-	/*position: fixed;*/
+	font-weight: bold;
 	display: inline;
     height: 9%;
     width: 9%;
-    color: #80bd9e;
 }
 
 .nav-format:hover {
@@ -66,11 +76,11 @@ nav {
 }
 
 .shape.two {
-	margin-left: 60px;
+	margin-left: 0.01em;
 }
 
 .shape.four {
-	margin-left: 60px;
+	margin-left: 3em;
 }
 
 
