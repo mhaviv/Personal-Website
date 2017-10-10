@@ -1,0 +1,137 @@
+body {
+    font-family: papyrus;
+    color: #80bd9e;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 1em;
+    padding-bottom: 1.6em;
+    margin: 0;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 3.125em;
+    font-weight: bold;
+}
+
+#centerize {
+    text-align: center;
+    padding-left: 10em;
+    background-color: rgba(0,0,0,0.3);
+}
+
+
+.background-gallery {
+    position: absolute;
+    z-index: -3;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(images/rendered.jpg);
+    opacity: .8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: fixed;
+}
+
+nav {
+    width: 100%;
+    height: 5em;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 2;
+    cursor: pointer;
+}
+
+a {
+    color: #80bd9e;
+}
+
+
+.nav-cont {
+    font-size: 1.8em;
+    text-align: center;
+    /*padding: 2em;*/
+}
+
+#nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-left: 5.7em;
+    margin-top: 3em;
+    margin-bottom: 2em;
+
+}
+
+.nav-format {
+    display: inline;
+    padding-right: 3em;
+    font-weight: bold;
+}
+
+.nav-format:hover {
+    color: #B0581B;
+}
+
+#nav-2 {
+    padding-right: 1em;
+}
+
+#nav-3 {
+    padding-left: 5em;
+}
+
+
+ul.col-xl-10 {
+    padding-left: 7em;
+}
+
+ul.col-lg-10 {
+    padding-left: 7em;
+}
+
+ul.col-md-8 {
+    padding-left: 3.5em;
+}
+
+ul.col-sm-6 {
+    padding-left: 0em;
+}
+
+
+p {
+    text-align: center;
+    z-index: 1;
+    font-weight: bold;
+    margin-bottom: 120px;
+    margin-top: 0;
+}
+
+/*all image settings*/
+.pic-cont {
+    background-color: rgba(0,0,0,0.3);
+    display: inline-block;
+}
+
+.marg-up {
+    padding: 0;
+    margin-top: 1em;
+    border-width: 0.3em;
+    border-style: double;
+    border-color: silver;
+}
+
+#link-format {
+    font-size: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 5.5em;
+}
